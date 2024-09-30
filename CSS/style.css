@@ -5,12 +5,14 @@ background-image: url(../img/Fondo1.jpg);
 
 /*Estilo del menú*/
 nav{
+    
     background-color: transparent; /* Hace el fondo deñ menú transparente*/
     position: fixed; /* Pone el menú en la parte superior*/
     top: 0;
     right: 0;
     width: 100%;
     z-index: 1;/* Hace que el menú esté arriba de la página*/
+
 
 }
 
@@ -48,10 +50,33 @@ nav li a{
 
   /* Caja "Ven al Brunch de los domingos"*/
   .cajaBrunchDomingos{
-    width: 400px;
+    width: 500px;
     height: 200px;
-    background-color: #d03b40
-  
-
+    background-color: #d03b40;
+    color: #f5f0ed;
+    
     
   }
+
+  .cajaBrunchDomingos h2{
+    text-align: center;
+    
+  }
+
+ 
+
+  .cajaBrunchDomingos p{
+   
+    margin-top: 65px;
+    text-align: center;
+    color: #f5f0ed;
+
+  }
+
+  
+
+ 
+
+ 
+
+  
